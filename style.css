@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    display: flex;
+    height: 100vh;
+    background-color: hsl(257, 40%, 49%);
+    /* justify-content: center; */
+}
+#head{
+    position: absolute;
+    transform: scale(70%);
+    left: 3%;
+}
+.center{
+    display: flex;
+}
+#bgimg{
+    height: 100vh;
+    width: 90vw;
+}
+.chat{
+    position: absolute;
+    top: 20%;
+    right: 48%;
+    transform: scale(102%, 94%);
+    margin-right: 0;
+}
+#cr{
+    position: absolute;
+    top: 13rem;
+    left: 53rem;
+    margin-right: 5rem;
+    font-weight: 600;
+    /* font-family: ; */
+    width: 30vw;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+#cr1{
+    position: absolute;
+    top: 21rem;
+    left: 53rem;
+    font-weight: 400;
+    font-size: 16px;
+    margin-right: 6rem;
+    padding-right: 8.5rem;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+.button{
+    width: 9rem;
+    background-color: white;
+    position: absolute;
+    top: 60%;
+    left: 55%;
+    text-align: center;
+    padding: 0.8rem;
+    border-radius: 25px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: hsl(257, 40%, 49%);
+}
+#facebook{
+    height: 3vh;
+    position: absolute;
+    bottom: 4%;
+    left: 78.8%;
+    border: 2px solid white;
+    border-radius: 100%;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    color: white;
+}
+#twitter{
+    height: 3vh;
+    position: absolute;
+    bottom: 4%;
+    left: 83%;
+    border: 2px solid white;
+    border-radius: 100%;
+    padding: 0.5rem;
+    color: white;
+}
+#instagram{
+    height: 3vh;
+    position: absolute;
+    bottom: 4%;
+    left: 87%;
+    border: 2px solid white;
+    border-radius: 100%;
+    padding: 0.4rem;
+    color: white;
+}
+.button:hover{
+    cursor: pointer;
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+}
+#facebook:hover{
+    cursor: pointer;
+    content: url('icons8-pink facebook-f.svg');
+    border-color: hsl(300, 69%, 71%);
+}
+#twitter:hover{
+    cursor: pointer;
+    content: url('icons8-pink twitter.svg');
+    border-color: hsl(300, 69%, 71%);
+}
+#instagram:hover{
+    cursor: pointer;
+    content: url('icons8-pnk instagram.svg');
+    border-color: hsl(300, 69%, 71%);
+}
